@@ -1,0 +1,22 @@
+{
+  "name": "red-records",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev:bootstrap": "cd bootstrap && npm run dev",
+    "dev:welcome": "cd welcome && npm run dev",
+    "dev:music": "cd music && npm run dev",
+    "build:bootstrap": "cd bootstrap && npm run build",
+    "build:welcome": "cd welcome && npm run build",
+    "build:music": "cd music && npm run build",
+    "build:all": "npm run build:bootstrap && npm run build:welcome && npm run build:music"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
